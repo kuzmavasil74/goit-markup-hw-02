@@ -13,6 +13,7 @@
     background-color: var(--secondary-text-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    font-style: normal;
 }
 a {
     text-decoration: none;
@@ -37,29 +38,49 @@ ul {
 }
 .nav-header
 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .studio {  
-    color: var(--accent-color);
+    color: var(--title-text-color);
+}
+.studio:hover{
+background-color: var(--accent-color);
+color: var(--secondary-text-color);
+}
+.studio:focus{
+background-color: var(--accent-color);
+color: var(--secondary-text-color);
 }
 .portfolio {
     color: var(--title-text-color);
 }
+.portfolio:hover{
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
+}
+.portfolio:focus{
+    background-color: var(--accent-color);
+color: var(--secondary-text-color);
+}
 .contacts {
     color: var(--primary-text-color)
+}
+.contacts:hover{
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
+}
+.contacts:focus{
+    background-color: var(--accent-color);
+color: var(--secondary-text-color);
 }
 .hero {
     background-color: var(--background-color);
 }
 /* body */
 .hero-titles {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -70,13 +91,9 @@ color: #FFFFFF;
 }
 .button {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    line-height: 1.88; 
     letter-spacing: 0.06em;
     color: #FFFFFF; 
     cursor: pointer;
@@ -84,10 +101,10 @@ color: #FFFFFF;
     color: var(--secondary-text-color);
 }
 .button:hover {
-    background-color: orchid;
+background-color: orchid;
 }
 .button:focus {
-    background-color: olive;
+background-color: olive;
 }
 /* preference */
 .sec {
@@ -104,13 +121,11 @@ color: #FFFFFF;
     color: var(--title-text-color);
 }
 .preference-about {
-    font-weight: 400;
     line-height: 1.71;
     color: var(--primary-text-color);
 }
 .portfolio-section {
     background-color: var(--background-color-3);
-    font-style: normal;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -125,7 +140,6 @@ color: #FFFFFF;
     background-color: var(--background-color-2);
     font-weight: 700;
     letter-spacing: 0.03em;
-    font-style: normal;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -143,11 +157,11 @@ color: #FFFFFF;
 }
 /* footer */
 .adress {
-background-color: var(--background-color);
+background-color: var(--primary-text-color);
 }
 .map {
     font-weight: 400;
-    font-style: normal;
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -155,7 +169,6 @@ background-color: var(--background-color);
     }
 .contacts-link {
     font-weight: 400;
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

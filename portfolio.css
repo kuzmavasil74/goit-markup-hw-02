@@ -47,26 +47,61 @@ ul {
 .studio {  
     color: var(--title-text-color);
 }
+.studio:hover{
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
+}
+.studio:focus{
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
+}
+
 .portfolio {
-    color: var(--accent-color);
+    color: var(--title-text-colo);
+}
+.portfolio:hover{
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
+}
+.portfolio:focus{
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
 }
 .contacts {
     color: var(--primary-text-color)
 }
+.contacts:hover{
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
+}
+.contacts:focus{
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
+}
 .mail {
-    color: var(--accent-color);
+    color: var(--primary-text-color);
 }
 /* filters assortment */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip:rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .btn {
 }
 .btn:hover {
-    background-color: orchid;
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
 }
 .btn:focus {
-    background-color: olive;
-}
-.btn:active {
-    background-color:var(--accent-color);
+    background-color: var(--accent-color);
     color: var(--secondary-text-color);
 }
 /* assortment */
@@ -83,7 +118,6 @@ ul {
     line-height: 1.88;
    letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    
 }
 /* footer */
 .adress {
