@@ -85,7 +85,7 @@ font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--secondary-text-color);
 }
 .button{
     font-family: 'Roboto';
@@ -95,16 +95,16 @@ color: #FFFFFF;
     letter-spacing: 0.06em;
     color: #FFFFFF; 
     cursor: pointer;
-    background-color: var(--accent-color);
-    color: var(--title-text-color);
+    background-color: var(--secondary-text-color);
+    color: var(--header-logo-color);
 }
 .button:hover{
-    background-color: var(--primary-text-color);
-    var(--secondary-text-color);
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
 }
 .button:focus{
-    background-color: var(--primary-text-color);
-    var(--secondary-text-color);
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
 }
 /* preference */
 .sec {
