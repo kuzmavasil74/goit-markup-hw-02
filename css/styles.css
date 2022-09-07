@@ -43,37 +43,49 @@ ul {
     letter-spacing: 0.02em;
 }
 .studio {  
-    color: var(--title-text-color);
+    color: var(--accent-color);
 }
 .studio:hover{
-background-color: var(--accent-color);
-color: var(--secondary-text-color);
+    color: var(--accent-color);
 }
 .studio:focus{
-background-color: var(--accent-color);
-color: var(--secondary-text-color);
+color: var(--accent-color);
+}
+.portfolia {  
+    color: var(--accent-color);
+}
+.portfolia:hover{
+    color: var(--accent-color);
+}
+.portfolia:focus{
+color: var(--accent-color);
+}
+.studia {
+    color: var(--title-text-color);
+}
+.studia:hover{
+    color: var(--accent-color);
+}
+.studia:focus{
+    color: var(--accent-color);   
 }
 .portfolio {
     color: var(--title-text-color);
 }
 .portfolio:hover{
-    background-color: var(--accent-color);
-    color: var(--secondary-text-color);
+    color: var(--accent-color);
 }
 .portfolio:focus{
-    background-color: var(--accent-color);
-color: var(--secondary-text-color);
+    color: var(--accent-color);
 }
 .contacts {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 .contacts:hover{
-    background-color: var(--accent-color);
-    color: var(--secondary-text-color);
+    color: var(--accent-color);
 }
 .contacts:focus{
-    background-color: var(--accent-color);
-color: var(--secondary-text-color);
+    color: var(--accent-color);
 }
 .hero {
     background-color: var(--background-color);
@@ -109,7 +121,6 @@ color: var(--secondary-text-color);
 /* preference */
 .sec {
     letter-spacing: 0.03em;
-    background-color: var(--background-color-3);
 }
 .preference {
     font-size: 14px;
@@ -125,14 +136,12 @@ color: var(--secondary-text-color);
     color: var(--primary-text-color);
 }
 .portfolio-section {
-    background-color: var(--background-color-3);
     font-size: 36px;
     line-height: 1.17;
     color: var(--title-text-color);
 }
 /* our team */
 .team-sec {
-    font-size: 16px;
     line-height: 1.9;
     background-color: var(--background-color-2);}
 .team-title{
@@ -153,7 +162,7 @@ color: var(--secondary-text-color);
 }
 /* footer */
 .adress {
-background-color: var(--primary-text-color);
+background-color: var(--background-color);
 font-style: normal;
 }
 .map {
@@ -164,10 +173,10 @@ font-style: normal;
     color: var(--secondary-text-color);
     }
 .map:hover{
-    background-color: var(--accent-color);
+    color: var(--accent-color);
 }
 .map:focus{
-    background-color: var(--accent-color);
+    color: var(--accent-color);
  }
 .contacts-link{
     font-weight: 400;
@@ -177,10 +186,10 @@ font-style: normal;
     color: var(--contacts-text-color);
 }
 .contacts-link:hover{
-    background-color: var(--accent-color);
+    color: var(--accent-color);
 }
 .contacts-link:focus{
-    background-color: var(--accent-color);
+    color: var(--accent-color);
  }
  /* portfolio styles */
 /* filters assortment */
@@ -202,6 +211,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
 letter-spacing: 0.03em;
+cursor: pointer;
 }
 .btn:hover {
     background-color: var(--accent-color);
