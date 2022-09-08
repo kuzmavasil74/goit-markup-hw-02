@@ -35,6 +35,13 @@ ul {
     letter-spacing: 0.03em;
     color: var(--header-logo-color);   
 }
+.logo-studio-f{
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color); 
+}
 .nav-header
 {
     font-weight: 500;
@@ -127,6 +134,7 @@ color: var(--secondary-text-color);
 }
 .preference-details {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
@@ -142,22 +150,22 @@ color: var(--secondary-text-color);
 }
 /* our team */
 .team-sec {
-    line-height: 1.9;
     background-color: var(--background-color-2);}
 .team-title{
     background-color: var(--background-color-2);
-    font-weight: 700;
     letter-spacing: 0.03em;
     font-size: 36px;
     line-height: 1.17;
     color: var(--title-text-color);
 }
 .team {
-    font-weight: 500;  
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 1.9;
     color: var(--title-text-color);
 }
 .team-position {
-    font-weight: 400; 
+    line-height: 1.9;
     color:var(--primary-text-color);
 }
 /* footer */
@@ -166,7 +174,6 @@ background-color: var(--background-color);
 font-style: normal;
 }
 .map {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -179,7 +186,6 @@ font-style: normal;
     color: var(--accent-color);
  }
 .contacts-link{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -223,14 +229,12 @@ cursor: pointer;
 }
 /* assortment */
 .categories {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
 .description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
    letter-spacing: 0.03em;
